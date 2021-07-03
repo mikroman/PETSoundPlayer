@@ -3,14 +3,17 @@
 .label timer2 = $e848
 .label pstlb = $fd
 .label psthb = $fe
-//###############################################################################
 *=$0401        //pet build
         .byte $0b,$04
-//###########  TOGGLE COMMENTS TO BUILD FOR PET OR C64  #########################
+//###########  TOGGLE COMMENTS TO BUILD FOR PET (above) OR C64  #################
 //*=$0801         //c64/debugger build
 //        byte $0b,$08
+//.label acr = $DD0B
+//.label shregister = $DD0A
+//.label timer2 = $DD08
+//.label pstlb = $fd
+//.label psthb = $fe
 //###############################################################################
-
         .byte $0a,$00,$9e,$34,$30,$39,$36,$00
         .byte $00,$00
 
