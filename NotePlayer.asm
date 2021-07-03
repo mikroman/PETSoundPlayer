@@ -9,6 +9,11 @@ pstHB = $FE
 ;###########  TOGGLE COMMENTS TO BUILD FOR PET OR C64  #########################
 ;*=$0801         ;C64/debugger build
 ;        byte $0B,$08
+;acr = $DD0B
+;shregister = $DD0A
+;timer2 = $DD08
+;pstlb = $fd
+;psthb = $fe
 ;###############################################################################
 
         byte $0A,$00,$9E,$34,$30,$39,$36,$00
